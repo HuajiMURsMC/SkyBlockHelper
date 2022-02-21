@@ -1,33 +1,33 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "skyblockhelper",
   "version": "${version}",
-  "name": "",
-  "description": "",
+  "name": "SkyBlock Helper",
+  "description": ":thinking:",
   "authors": [
     "Huaji_MUR233"
   ],
   "contact": {
     "homepage": "https://github.com/HuajiMURsMC",
-    "sources": "https://github.com/HuajiMURsMC/"
+    "sources": "https://github.com/HuajiMURsMC/SkyBlockHelper"
   },
 
-  "license": "WTFPL-3.0",
-  "icon": "assets/modid/icon.png",
+  "license": "GPL-3.0",
+  "icon": "assets/skyblockhelper/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "me.jvav."
+      "skyblockhelper.SkyBlockHelper"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "skyblockhelper.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.12.12",
-    "minecraft": "1.18.x",
+    "minecraft": ">=1.17.x",
     "java": ">=17"
   }
 }
